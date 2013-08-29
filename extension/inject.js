@@ -9235,6 +9235,12 @@ $(document).ready(function() {
 $("body *").addClass("catify");
 
 var elems = document.getElementsByTagName('img');
+for(var i = 0; i < elems.length; i++) { 
+ var width = elems[i].getAttribute('width');
+ var height= elems[i].getAttribute('height');
 
+ elems[i].setAttribute("src", "http://placekitten.com/"+width+"/"+height);
+
+ }
 
 });
