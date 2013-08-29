@@ -9228,6 +9228,13 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 })( window );
 
 
+
+
+
 $(document).ready(function() {
-  alert('hello');
+$("body *").addClass("catify");
+
+var elems = document.getElementsByTagName('img');
+
+
 });
