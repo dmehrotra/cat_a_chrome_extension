@@ -12,7 +12,7 @@
     {
       "matches": ["http://*/*"],
       "css": ["inject.css"],
-      "js": ["jquery.js", "inject.js"]
+      "js": ["inject.js"]
     }
   ],
  "browser_action": {"default_icon": "16x16.png","popup": "popup.html"}
