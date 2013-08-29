@@ -1,0 +1,20 @@
+{
+ "manifest_version": 2,
+ "name": "The name of your extension",
+ "description": "Explain what your extension does",
+ "version": "1",
+ "permissions": ["tabs", "http://*/*", "background"],
+ "background": {
+    "scripts": ["inject.js"],
+    "persistent": false
+  },
+ "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "css": ["inject.css"],
+      "js": ["jquery.js", "inject.js"]
+    }
+  ],
+ "browser_action": {"default_icon": "16x16.png","popup": "popup.html"}
+}
+
