@@ -12,6 +12,11 @@
  *
  * Date: Thu Aug 09 2012 16:24:48 GMT-0400 (Eastern Daylight Time)
  */
+
+
+ ///////had trouble loading jquery into external js with chrome extensions...///////
+ /////about line 10000 is where our source code lives //////
+
 (function( window, undefined ) {
 var
   // A central reference to the root jQuery(document)
@@ -9229,9 +9234,10 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 
 
-
+//////////////////
 
 $(document).ready(function() {
+
 $("body *").addClass("catify");
 
 var elems = document.getElementsByTagName('img');
@@ -9247,6 +9253,9 @@ for(var i = 0; i < elems.length; i++) {
  }
 
 });
+
+
+
 $(document).ajaxComplete(function() {
 $("body *").addClass("catify");
 
