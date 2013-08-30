@@ -1,11 +1,6 @@
 cat_a_chrome_extension
 ======================
 
-Catify your Chrome
-
-cat_a_chrome_extension
-======================
-
 Catify the Internet
 
 Ever read the news and think to yourself, 'hey, this is depressing.'  Ever think to yourself, ' I love this article, but I wish
