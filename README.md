@@ -1,16 +1,15 @@
 cat_a_chrome_extension
 ======================
-
-Catify the Internet
+ 
+//////////////// CATERIZE /////////////////
 
 Ever read the news and think to yourself, 'hey, this is depressing.'  Ever think to yourself, ' I love this article, but I wish
 it was in Comic Sans.  We have a solution. 
 
 This Chrome Extension will take that frown and turn it upside down. 
 
-/////////////////////////////
+/////////////////IMPLEMENTATION//////////////
 
-implementation 
 
 DOWNLOAD THE SOURCE FILES
 
@@ -22,3 +21,12 @@ Click Load unpacked extension… to pop up a file-selection dialog.
 
 Navigate to the directory in which your extension files live, and select it.
 
+
+////////////////TODO////////////////////////////
+
+
+Get JQUERY out of inject.js and into its own file --> manifest.json
+
+Change out photos that are dynamically loaded with AJAX...
+
+Maybe more Styling...
