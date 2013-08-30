@@ -1,18 +1,18 @@
 {
  "manifest_version": 2,
- "name": "The name of your extension",
- "description": "Explain what your extension does",
+ "name": "Catify The Internet",
+ "description": "Change fonts to comic-sans, changes photos to kittens",
  "version": "1",
  "permissions": ["tabs", "http://*/*", "background"],
  "background": {
-    "scripts": ["inject.js"],
+    "scripts": ["jquery.js", "inject.js"],
     "persistent": false
   },
  "content_scripts": [
     {
       "matches": ["http://*/*"],
       "css": ["inject.css"],
-      "js": ["inject.js"]
+      "js": ["jquery.js", "inject.js"]
     }
   ]
 }
