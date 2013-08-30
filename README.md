@@ -22,3 +22,12 @@ Click Load unpacked extension… to pop up a file-selection dialog.
 
 Navigate to the directory in which your extension files live, and select it.
 
+
+///////////
+TODO::
+
+Get JQUERY out of inject.js and into its own file --> manifest.json
+
+Change out photos that are dynamically loaded with AJAX...
+
+Maybe more Styling...
